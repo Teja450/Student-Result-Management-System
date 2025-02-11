@@ -39,15 +39,13 @@ The Student Result Management System simplifies the process of entering, updatin
 
 - **Front End:** React, CSS Modules  
 - **Back End:** Spring Boot (Java), RESTful APIs  
-- **Database:** MySQL or PostgreSQL (via free-tier managed services like Heroku Postgres)
-- **Hosting (Optional):**  
-  - Front End: Netlify, Vercel, or GitHub Pages  
-  - Back End: Heroku, Render, or AWS Elastic Beanstalk
+- **Database:** MySQL
+
 
 ## Usage
--- **Student Portal:** Log in to view results and manage your profile.
--- **Faculty Portal:** Faculty members can add or update student results and view performance analytics.
--- **Admin Portal:** Administrators can manage user accounts and review system queries.
+- **Student Portal:** Log in to view results and manage your profile.
+- **Faculty Portal:** Faculty members can add or update student results and view performance analytics.
+- **Admin Portal:** Administrators can manage user accounts and review system queries.
 
 
 
