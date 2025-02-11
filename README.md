@@ -11,10 +11,11 @@ Welcome to the **Student Result Management System** repository. This project is 
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Usage](#usage)
 - [Setup and Installation](#setup-and-installation)
   - [Front End (React)](#front-end-react)
   - [Back End (Spring Boot)](#back-end-spring-boot)
-- [Usage](#usage)
+
 
 
 ## Overview
@@ -43,6 +44,10 @@ The Student Result Management System simplifies the process of entering, updatin
   - Front End: Netlify, Vercel, or GitHub Pages  
   - Back End: Heroku, Render, or AWS Elastic Beanstalk
 
+## Usage
+Student Portal: Log in to view results and manage your profile.
+Faculty Portal: Faculty members can add or update student results and view performance analytics.
+Admin Portal: Administrators can manage user accounts and review system queries.
 
 
 
@@ -76,8 +81,4 @@ java -jar target/your-app-name.jar
 
 
 
-## Usage
-Student Portal: Log in to view results and manage your profile.
-Faculty Portal: Faculty members can add or update student results and view performance analytics.
-Admin Portal: Administrators can manage user accounts and review system queries.
 
