@@ -45,9 +45,9 @@ The Student Result Management System simplifies the process of entering, updatin
   - Back End: Heroku, Render, or AWS Elastic Beanstalk
 
 ## Usage
-Student Portal: Log in to view results and manage your profile.
-Faculty Portal: Faculty members can add or update student results and view performance analytics.
-Admin Portal: Administrators can manage user accounts and review system queries.
+-- **Student Portal:** Log in to view results and manage your profile.
+-- **Faculty Portal:** Faculty members can add or update student results and view performance analytics.
+-- **Admin Portal:** Administrators can manage user accounts and review system queries.
 
 
 
