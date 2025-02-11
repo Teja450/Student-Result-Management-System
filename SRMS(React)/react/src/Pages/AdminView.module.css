@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.adminViewContainer {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4b79a1, #283e51);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(41, 128, 185, 0.9); /* A vibrant blue accent */
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dashboardTitle {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+/* Logout button styling */
+.logoutButton {
+  background-color: #e74c3c;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Main content area */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainHeading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Button container for actions */
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.actionButton {
+  background-color: #1abc9c; /* Fresh teal */
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.actionButton:hover {
+  background-color: #16a085;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dashboardTitle {
+    font-size: 1.5rem;
+  }
+  .header {
+    flex-direction: row;
+    gap: 0.8rem ;
+    text-align: center;
+  }
+  .mainHeading {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  .actionButton {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}

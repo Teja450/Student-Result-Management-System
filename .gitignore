@@ -1,0 +1,13 @@
+# Node modules (for React)
+/react/node_modules
+
+# Build output (for React)
+/react/build
+
+# Java/Maven target folder (for Spring Boot)
+/srms/target
+
+# IDE or OS specific files
+.idea/
+*.log
+*.swp

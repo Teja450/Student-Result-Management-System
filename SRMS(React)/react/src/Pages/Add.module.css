@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4b79a1, #283e51);
+  padding: 20px;
+  
+  color: #fff;
+  
+}
+
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(41, 128, 185, 0.9); /* A vibrant blue accent */
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dashboardTitle {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+/* Logout button styling */
+.logoutButton {
+  background-color: #e74c3c;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+
+/* Centering the card */
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card styling for the form */
+.card {
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 450px;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading styling */
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.label {
+  font-size: 1rem;
+  color: #555;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Submit button styling */
+.submitButton {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #1e8449;
+  transform: translateY(-3px);
+}
+
+/* Back link styling */
+.backLink {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #3498db;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #2980b9;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+  .heading {
+    font-size: 1.75rem;
+  }
+  .input {
+    padding: 0.65rem 0.9rem;
+    font-size: 0.95rem;
+  }
+  .submitButton {
+    font-size: 1rem;
+    padding: 0.65rem;
+  }
+}
