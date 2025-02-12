@@ -3,6 +3,9 @@ title: "Student Result Management System"
 description: "A full-stack web application for managing and analyzing student results."
 ---
 
+ ## ![Homepage Screenshot](IMAGES_SRMS/Home_page_1.png)
+ ## ![Homepage Screenshot](IMAGES_SRMS/Home_page_2.png)
+
 # Student Result Management System
 
 Welcome to the **Student Result Management System** repository. This project is a full-stack web application designed to streamline and enhance the process of managing student results. It features a modern React front end and a robust Spring Boot back end connected to a relational database.
@@ -47,6 +50,21 @@ The Student Result Management System simplifies the process of entering, updatin
 - **Faculty Portal:** Faculty members can add or update student results and view performance analytics.
 - **Admin Portal:** Administrators can manage user accounts and review system queries.
 
+## Screenshots
+- Below are some screenshots to showcase the project:
+
+- Student Login Page
+ ## ![Student Login Screenshot](IMAGES_SRMS/Student_login.png)
+
+- Faculty Dashboard
+ ## ![Faculty Dashboard Screenshot](IMAGES_SRMS/Faculty_dashboard.png)
+
+- Admin Dashboard
+ ## ![Admin Dashboard Screenshot](IMAGES_SRMS/Admin_dasboard.png)
+
+ ## Project Assets
+
+For additional screenshots and media, please visit the [IMAGES_SRMS Folder](./IMAGES_SRMS).
 
 
 ## Setup and Installation
