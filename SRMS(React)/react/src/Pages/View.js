@@ -2,9 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import styles from "./View.module.css";
+import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 function View() {
   const [queriesData, setQueriesData] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -34,7 +37,7 @@ function View() {
   const onLogout = () => {
         localStorage.clear();
         toast.success("Logging Out!");
-        navigate("/");
+        navigate("/About");
       };
 
   return (

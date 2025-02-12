@@ -94,7 +94,7 @@ function AddOrUpdateResult() {
   const onLogout = () => {
     localStorage.clear();
     toast.success("Logging Out!");
-    navigate("/");
+    navigate("/About");
   };
 
 

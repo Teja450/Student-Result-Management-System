@@ -40,7 +40,7 @@ function MainNavigation() {
   // Logout handler: clear all localStorage entries.
   const logoutHandler = () => {
     localStorage.clear();
-    navigate("/");
+    navigate("/About");
   };
 
   const toggleMenuHandler = () => {

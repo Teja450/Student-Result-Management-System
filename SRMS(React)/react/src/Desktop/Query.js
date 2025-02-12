@@ -19,7 +19,7 @@ function Query() {
       toast.success("Submitted Successfully!!");
       setUsn("");
       setQuery("");
-      navigate("/");
+      navigate("/About");
     } catch (err) {
       toast.error("Error: " + err.message);
     }
